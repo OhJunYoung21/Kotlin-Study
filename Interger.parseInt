@@ -1,0 +1,9 @@
+fun main() {
+    
+    fun final(numbers:String): Int{
+		val num_1 = Integer.parseInt(numbers)
+        
+        return num_1
+    }
+    println(final("12"))
+}
